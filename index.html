@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Stopwatch</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🕒 Stopwatch</h1>
+    <div id="display">00:00:00</div>
+    <div class="controls">
+      <button id="startBtn" onclick="startStopwatch()">Start</button>
+      <button id="pauseBtn" onclick="pauseStopwatch()">Pause</button>
+      <button id="resetBtn" onclick="resetStopwatch()">Reset</button>
+      <button id="lapBtn" onclick="recordLap()">Lap</button>
+    </div>
+    <ul id="laps"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
